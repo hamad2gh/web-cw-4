@@ -14,21 +14,40 @@ html, body{
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
 .sidebar{
+   
+    border-radius: 8px;
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 120px;
+    background-color: black;
+    color: white;
+    height: 100vh;
 }
 
 .header{
+    padding: 10px;
+    
+
+    height: 40vh;
+    background-color: royalblue;
+    border-radius: 8px;
     /* pxالطول هنا يجب ان يكون 80 */
 }
 
 .main{
-
+    background-color: skyblue;
+    height: 53vh;
+    padding: 10px;
+    border-radius: 8px;
+ margin-top: 4px; 
 }
 
 a{
     color: darkgray;
+    text-decoration: none;
+
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
+a:hover {color: springgreen;}
 
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
@@ -46,3 +65,11 @@ h2{
     margin-left: 5px;
 }
 
+.all {display: flex;
+ 
+    margin: 4px;
+
+}
+.hh {
+    margin: 4px;
+}
